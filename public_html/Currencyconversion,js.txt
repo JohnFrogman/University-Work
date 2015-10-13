@@ -1,0 +1,32 @@
+//Currency Converter
+
+var usd = 0;
+var eur = 0;
+var gbp = 0;
+//var yen = 0;
+//var chf = 0;
+
+function poundToDollar(gbp)
+{
+}
+
+function poundToEuro(gbp)
+{
+}
+
+function euroToDollar(eur)
+{
+}
+
+function euroToPound(eur)
+{
+}
+
+function dollarToPound(usd)
+{
+}
+
+function dollarToEuro(usd)
+{
+}
+

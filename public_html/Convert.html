@@ -1,0 +1,81 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+	<meta charset= "UTF-8">
+	<meta name="Author" content="Alexander Hayes">
+	<meta name="keywords" content="University of Liverpool, comp519, web development">
+	<meta name="description" content="First webpage made by Alex, made for both fun and profit.">
+	<title>Javascript stuff</title>
+	
+<script src = "Currencyconversion.js"></script>
+</head>
+
+<body>
+
+
+
+
+
+<form id="Dollars">
+	US Dollars: 
+	<input type="text" id="USD" value="0"    
+	onchange="dollarChange(USD.value)"
+	><br>  
+</form>
+
+<form id="Euros">
+	Euros: 
+	<input type="text" id="EUR" value="0"
+	onchange="euroChange(EUR.value)"
+	><br>
+</form>
+
+<form id="Pounds">
+	Pound Sterling: 
+	<input type="text" id="GBP" value="0"
+	onchange="poundChange(GBP.value)"
+	><br>
+</form>
+	
+
+
+	
+	
+	
+<br>
+<h5><a href="#Top">Return to top of webpage</a></h5>
+
+<br>
+
+<h3><b>Your fortune for the day</b></h3>
+
+<table><tr>
+<td class = "fortuneBox">
+<script src="FortuneGenerator.js"></script>
+
+</td>
+</tr></table>
+
+<b>Page last updated on:</b> 
+			  <script type="text/javascript">
+		      document.write(document.lastModified);
+		      </script>
+<br>
+<b>Your current location:</b>
+			  <script type="text/javascript">
+			  document.write(document.URL);
+			  </script>
+			  
+<br>
+<br>
+<br>
+</div>
+<!-- buttons for alternate styles when I figure out how to do it
+Use Style1
+<br>
+Use Style2
+-->
+</div>
+</body>
+</html>

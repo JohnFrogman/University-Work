@@ -1,0 +1,25 @@
+var quotes = new Array();
+quotes[0]	= "The strong do as they can, and the weak suffer what they must.";
+quotes[1]	= "The current generation now sees everything clearly, it marvels at the errors, it laughs at the folly of its ancestors, not seeing that this chronicle is all overscored by divine fire, that every letter of it cries out, that from everywhere the piercing finger is pointed at it, at this current generation; but the current generation laughs and presumptuously, proudly beings a series of new errors, at which their descendants will also laugh at afterwards.";
+quotes[2]	= "By nature all men are equal in liberty, but not in other endowments.";
+quotes[3]	= "Silence is a true friend who never betrays.";
+quotes[4]	= "Every man's life ends the same way. It is only the details of how he lived and how he died that distinguish one man from another.";
+quotes[5]	= "My killing a loathsome, harmful louse, a filthy old moneylender woman who brough no good to anyone, to murder whom would pardon forty sins, who sucked the lifeblood of the poor, and you call that a crime?";
+quotes[6]	= "Even the darkest night will end and the sun will rise.";
+quotes[7] 	= "Many secrets of ar and nature are thought by the unlearned to be magical.";
+quotes[8]	= "Conquering the world on horseback is easy; it is dismounting and governing that is hard";
+quotes[9] 	= "We ought so to behave to one another as to a void making enemies of our friends, and at the same time to make friends of our enemies.";
+quotes[10] 	= "";
+
+var quotee = new Array();
+quotee[0]	= "Herbert Hoover";
+quotee[1]	= "Muhammad Ali Jinnah";
+quotee[2]	= "Ptolemy";
+quotee[3]	= "Thomas Becket";
+quotee[4]	= "Maximilien de Robespierre";
+quotee[5]	= "Fyodor Dostoyevsky";
+quotee[6]	= "Machiavelli";
+quotee[7]	= "Simon Bolivar";
+quotee[8]	= "Mansa Musa";
+quotee[9]	= "Deng Xiaoping";
+quotee[10]	= "Hayao Miyazaki";

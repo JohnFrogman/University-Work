@@ -1,0 +1,121 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+	<meta charset= "UTF-8">
+	<meta name="Author" content="Alexander Hayes">
+	<meta name="keywords" content="University of Liverpool, comp519, web development">
+	<meta name="description" content="The Quiz.">
+	<title>Javascript stuff</title>
+	
+<script src = "Quiz.js"></script>
+</head>
+
+<body>	
+
+Choose number of questions to generate:
+<select id = "quizLength" value = '5'>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+</select>
+<button onclick = generateQuiz(quizLength.value)>Generate Quiz</button>
+<br>
+
+<h3 id="questionBox0">
+</h3>	
+<h4 id="answerButton0"></h4>
+
+<h3 id="questionBox1">
+</h3>
+<h4 id="answerButton1"></h4>
+	
+<h3 id="questionBox2">
+</h3>
+<h4 id="answerButton2"></h4>
+	
+<h3 id="questionBox3">
+</h3>
+<h4 id="answerButton3"></h4>
+	
+<h3 id="questionBox4">
+</h3>
+<h4 id="answerButton4"></h4>
+	
+<h3 id="questionBox5">
+</h3>
+<h4 id="answerButton5"></h4>
+	
+<h3 id="questionBox6">
+</h3>
+<h4 id="answerButton6"></h4>
+	
+<h3 id="questionBox7">
+</h3>
+<h4 id="answerButton7"></h4>
+	
+<h3 id="questionBox8">
+</h3>
+<h4 id="answerButton8"></h4>
+	
+<h3 id="questionBox9">
+</h3>
+<h4 id="answerButton9"></h4>
+	
+<h3 id="questionBox10">
+</h3>
+<h4 id="answerButton10"></h4>
+	
+<h3 id="questionBox11">
+</h3>
+<h4 id="answerButton11"></h4>
+	
+<h3 id="questionBox12">
+</h3>
+<h4 id="answerButton12"></h4>
+	
+<h3 id="questionBox13">
+</h3>
+<h4 id="answerButton13"></h4>
+	
+<h3 id="questionBox14">
+</h3>
+<h4 id="answerButton14"></h4>	
+<br>
+<div id="scoreBox"></div>
+<br>
+
+<button onclick = getScore()>Give Score</button>
+	
+<br>
+<h5><a href="#Top">Return to top of webpage</a></h5>
+
+<br>
+
+<h3><b>Your fortune for the day</b></h3>
+
+<table><tr>
+<td class = "fortuneBox">
+<script src="FortuneGenerator.js"></script>
+
+</td>
+</tr></table>
+
+<b>Page last updated on:</b> 
+			  <script type="text/javascript">
+		      document.write(document.lastModified);
+		      </script>
+<br>
+<b>Your current location:</b>
+			  <script type="text/javascript">
+			  document.write(document.URL);
+			  </script>
+			  
+<br>
+<br>
+<br>
+</body>
+</html>

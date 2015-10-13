@@ -1,0 +1,25 @@
+//												RectangleSpecs: Instructions														//
+//																																	//
+// The first two lines should contain the height then width of the area to be drawn on, the next two contain the x then y  			//
+// coordinate of the top left corner of the rectangle to be drawn. The two following lines will contain the coordinates of the 		//
+// bottom right corner of the triangle then on the line that follows is the character that the rectangle will be drawn with. The  	//
+// program will stop drawing rectangles when it sees a negative number rather than a new top left X coordinate. The origin begins 	//
+// at (0,0) and in this example the maximum (x,y) is (9,9). You are setting the height and width not the maximum X and Y. The Y  	//
+// axis is inverted from a normal graph, an increase in Y will move the point downwards. The below is an example of a valid input	//
+// consisting of two overlapping rectangles. I have also provided the output that that this input will produce in rectangles.txt	//																						//
+// 																																	//
+//								The program will begin drawing at the first number it detects.										//
+//																																	//
+10
+10
+3
+2
+7
+7
+#
+0
+6
+4
+9
+@
+-1

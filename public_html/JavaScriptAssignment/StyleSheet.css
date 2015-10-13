@@ -1,0 +1,169 @@
+html 
+	{	
+			background-color: 	#666699;
+			width: 				100%;
+			height: 			100%;
+	}
+
+table{
+			table-layout: 		fixed;
+			width: 				100%;
+	}
+	
+body	
+	{
+			font-family: 		Helvetica, Sans-Serif;
+			background-color:	white;
+			margin-left:		6%;
+			margin-right: 		6%;
+	}
+	
+ol 	{
+			list-style-type: 	decimal;
+			font-size: 			14px;
+	}
+	
+ul	{
+			list-style-type:	katakana;
+			font-size:			18px;
+	}
+
+h1 	{
+			text-align:			center;
+	}
+
+h2
+	{
+			text-align:			center;
+	}
+
+h3
+	{
+	}
+
+p 	{
+			text-indent:		1%;
+			font-size:			120%;
+			text-align: 		justify;
+			margin-left: 		0;
+			margin-right: 		2%;
+	}
+
+table	
+	{
+			text-align:			center;
+			width:				100%;
+	}
+
+td	{
+			padding: 			2%;
+	}
+	
+img {
+			max-width: 			90%;
+			height: 			auto;
+	}
+	
+ul	{
+			list-style-type:	none;
+	}
+
+.siteNavigation 
+	{
+			width: 				80%;
+			margin-left:		auto;
+			margin-right:		auto;
+	}
+.siteNavigation
+	li
+	{
+			display: 			inline;
+			text-align: 		center;
+			width: 				100%;
+			padding: 			5%;
+	}	
+.siteNavigation
+	ul
+	{
+			width: 				100%;
+	}
+
+	
+.contents
+	{
+			float: 				left;
+			width: 				29%
+	}
+		
+.content
+	{ 
+			float: 				right;
+			width: 				69%;
+	}
+	
+.left
+	{
+			text-align:			center;
+			float: 				left;
+			width: 				49%
+	}
+
+.right
+	{
+			text-align:			center;
+			float:				right;
+			width: 				49%
+	}
+
+.tablemap
+	td
+	{
+			width: 				40px;
+			height: 			40px;
+	}
+	
+	
+.m	{
+			overflow:			hidden;
+			background-color: 	white;
+			height:				auto;
+			width: 				90%;
+			margin-left: 		5%;
+			margin-right:		5%;
+	}
+	
+.tb 	{
+			border: 			1px solid;
+			width: 				14%;
+	}
+
+.tw	{
+			width:				14%;
+	}
+
+	
+.background	{
+			background-color: 	white;
+			width: 				90%
+	}
+
+.bottom
+	{
+			float: 				left;
+			width: 				100%;
+	}
+
+.fortuneBox
+	{
+			border:				1px solid;
+			text-align:			center;
+			margin:				1%;
+			padding:			1%;
+			background-color:	#B8DBFF
+	}	
+	
+.locationTable
+	{
+			border: 			1px solid;
+			background-color: 	#FF9900;
+	}
